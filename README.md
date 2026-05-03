@@ -42,13 +42,13 @@ $$\frac{\partial u^*}{\partial x^*} + \frac{\partial v^*}{\partial y^*} = 0$$
 
 **Momentum equations (Navier–Stokes):**
 
-$$u^* \frac{\partial u^*}{\partial x^*} + v^* \frac{\partial u^*}{\partial y^*} = -\frac{\partial p^*}{\partial x^*} + \frac{1}{Re}\left(\frac{\partial^2 u^*}{\partial x^{*2}} + \frac{\partial^2 u^*}{\partial y^{*2}}\right)$$
+$$u^* \frac{\partial u^*}{\partial x^*} + v^* \frac{\partial u^*}{\partial y^*} = -\frac{\partial p^*}{\partial x^*} + \frac{1}{Re}\left(\frac{\partial^2 u^*}{\partial {x^*}^{2}} + \frac{\partial^2 u^*}{\partial {y^*}^{2}}\right)$$
 
-$$u^* \frac{\partial v^*}{\partial x^*} + v^* \frac{\partial v^*}{\partial y^*} = -\frac{\partial p^*}{\partial y^*} + \frac{1}{Re}\left(\frac{\partial^2 v^*}{\partial x^{*2}} + \frac{\partial^2 v^*}{\partial y^{*2}}\right)$$
+$$u^* \frac{\partial v^*}{\partial x^*} + v^* \frac{\partial v^*}{\partial y^*} = -\frac{\partial p^*}{\partial y^*} + \frac{1}{Re}\left(\frac{\partial^2 v^*}{\partial {x^*}^{2}} + \frac{\partial^2 v^*}{\partial {y^*}^{2}}\right)$$
 
 **Energy equation:**
 
-$$u^* \frac{\partial T^*}{\partial x^*} + v^* \frac{\partial T^*}{\partial y^*} = \frac{1}{Re \cdot Pr}\left(\frac{\partial^2 T^*}{\partial x^{*2}} + \frac{\partial^2 T^*}{\partial y^{*2}}\right)$$
+$$u^* \frac{\partial T^*}{\partial x^*} + v^* \frac{\partial T^*}{\partial y^*} = \frac{1}{Re \cdot Pr}\left(\frac{\partial^2 T^*}{\partial {x^*}^{2}} + \frac{\partial^2 T^*}{\partial {y^*}^{2}}\right)$$
 
 where $Re$ is the Reynolds number and $Pr$ is the Prandtl number.
 
@@ -158,7 +158,7 @@ Submitted as a *Projet Innovation Recherche (PIR)* in the 4th year of the engine
 |------|------|
 | Mai Dinh Nam | Researcher |
 | Nguyen Phuc Luan | Researcher |
-| Thái Doãn Kiên | Researcher |
+| Thai Doan Kien | Researcher |
 | Mrs. Marie | Academic Advisor |
 | Ms. Liantsoa | Academic Advisor |
 
